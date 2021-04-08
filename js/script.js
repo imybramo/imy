@@ -19,22 +19,30 @@ inputs.map(input => {
 
 imgs.map(img => {
     img.addEventListener('mouseenter', e => {
-        console.log('enter => ', e.target); 
+        if (Object.values(e.target.classList).includes('no')) return
+
         e.target.style.filter = 'brightness(30%)';
         e.target.style.transition = '.3s ease-in-out';
         e.target.nextSibling.style.opacity = "1";
         e.target.nextSibling.style.transition = '.3s ease-in-out';
-        e.target.nextSibling.nextSibling.style.opacity = "1";
-        e.target.nextSibling.nextSibling.style.transition = '.3s ease-in-out';
+
+        if (e.target.nextSibling.nextSibling) {
+            e.target.nextSibling.nextSibling.style.opacity = "1";
+            e.target.nextSibling.nextSibling.style.transition = '.3s ease-in-out';
+        }
     });
     img.addEventListener('mouseleave', e => {
-        console.log('leave => ', e.target); 
+        if (Object.values(e.target.classList).includes('no')) return
+
         e.target.style.filter = 'brightness(100%)';
         e.target.style.transition = '.3s ease-in-out';
         e.target.nextSibling.style.opacity = "0";
         e.target.nextSibling.style.transition = '.3s ease-in-out';
-        e.target.nextSibling.nextSibling.style.opacity = "0";
-        e.target.nextSibling.nextSibling.style.transition = '.3s ease-in-out';
+
+        if (e.target.nextSibling.nextSibling) {
+            e.target.nextSibling.nextSibling.style.opacity = "0";
+            e.target.nextSibling.nextSibling.style.transition = '.3s ease-in-out';
+        }
     });
 });
 

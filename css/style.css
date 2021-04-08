@@ -119,6 +119,7 @@ body {
 .slide h2 {
   font-size: 35px;
   font-family: 'Questa', 'Times New Roman', Times, serif;
+  text-transform: uppercase;
   color: black;
 }
 
@@ -159,7 +160,7 @@ body {
   pointer-events: none;
 }
 
-#cultures_du_monde, #musique, #films, #style, #illustratrice, #renaissance, #numerique {
+#cultures_du_monde, #musique, #films, #style, #illustratrice, #renaissance, #numerique, #poesie, #nature, #designinterieur, #inspiration, #jeuxvideo, #vases, #webdesign, #animations, #ecologie, #minimaliste, #typographie, #collage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,19 +170,19 @@ body {
           flex-direction: column;
 }
 
-#cultures_du_monde h2, #musique h2, #films h2, #style h2, #illustratrice h2, #renaissance h2, #numerique h2 {
+#cultures_du_monde h2, #musique h2, #films h2, #style h2, #illustratrice h2, #renaissance h2, #numerique h2, #poesie h2, #nature h2, #designinterieur h2, #inspiration h2, #jeuxvideo h2, #vases h2, #webdesign h2, #animations h2, #ecologie h2, #minimaliste h2, #typographie h2, #collage h2 {
   margin: auto auto 50px auto;
   width: 70%;
 }
 
-#cultures_du_monde .text-imgs, #musique .text-imgs, #films .text-imgs, #style .text-imgs, #illustratrice .text-imgs, #renaissance .text-imgs, #numerique .text-imgs {
+#cultures_du_monde .text-imgs, #musique .text-imgs, #films .text-imgs, #style .text-imgs, #illustratrice .text-imgs, #renaissance .text-imgs, #numerique .text-imgs, #poesie .text-imgs, #nature .text-imgs, #designinterieur .text-imgs, #inspiration .text-imgs, #jeuxvideo .text-imgs, #vases .text-imgs, #webdesign .text-imgs, #animations .text-imgs, #ecologie .text-imgs, #minimaliste .text-imgs, #typographie .text-imgs, #collage .text-imgs {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
 }
 
-#cultures_du_monde .text-imgs .text, #musique .text-imgs .text, #films .text-imgs .text, #style .text-imgs .text, #illustratrice .text-imgs .text, #renaissance .text-imgs .text, #numerique .text-imgs .text {
+#cultures_du_monde .text-imgs .text, #musique .text-imgs .text, #films .text-imgs .text, #style .text-imgs .text, #illustratrice .text-imgs .text, #renaissance .text-imgs .text, #numerique .text-imgs .text, #poesie .text-imgs .text, #nature .text-imgs .text, #designinterieur .text-imgs .text, #inspiration .text-imgs .text, #jeuxvideo .text-imgs .text, #vases .text-imgs .text, #webdesign .text-imgs .text, #animations .text-imgs .text, #ecologie .text-imgs .text, #minimaliste .text-imgs .text, #typographie .text-imgs .text, #collage .text-imgs .text {
   width: 70%;
   margin: auto;
 }
