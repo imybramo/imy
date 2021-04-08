@@ -23,6 +23,8 @@ body {
 
 #header {
 	background-color: #F3F3F3;
+	position: fixed;
+	width: 15%;
 
 	.c-cir {
 		position: relative;
@@ -165,25 +167,6 @@ body {
 			width: 70%;
 			margin: auto;
 		}
-	}
-}
-
-@media (max-width: 768px) {
-	#main {
-    	grid-template-areas: "h"
-							 "s";
-	}
-	
-	#header {
-	}
-}
-
-@media (min-width: 769px) and (max-width: 1023px) {
-	#main {
-		grid-template-areas: "h"
-							 "s";
-	}
-	#header {
 	}
 }
 

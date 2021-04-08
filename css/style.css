@@ -24,6 +24,8 @@ body {
 
 #header {
   background-color: #F3F3F3;
+  position: fixed;
+  width: 15%;
 }
 
 #header .c-cir {
@@ -185,18 +187,6 @@ body {
 #cultures_du_monde .text-imgs .text, #musique .text-imgs .text, #films .text-imgs .text, #style .text-imgs .text, #illustratrice .text-imgs .text, #renaissance .text-imgs .text, #numerique .text-imgs .text, #poesie .text-imgs .text, #nature .text-imgs .text, #designinterieur .text-imgs .text, #inspiration .text-imgs .text, #jeuxvideo .text-imgs .text, #vases .text-imgs .text, #webdesign .text-imgs .text, #animations .text-imgs .text, #ecologie .text-imgs .text, #minimaliste .text-imgs .text, #typographie .text-imgs .text, #collage .text-imgs .text {
   width: 70%;
   margin: auto;
-}
-
-@media (max-width: 768px) {
-  #main {
-        grid-template-areas: "h" "s";
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1023px) {
-  #main {
-        grid-template-areas: "h" "s";
-  }
 }
 
 @media (min-width: 1024px) {
